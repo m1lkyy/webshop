@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;family=Poppins:wght@300&amp;display=swap" rel="stylesheet" data-optimized-fonts="true">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Webshop</h1>
+    </header>
+
+    <div class="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 left">
+                    <img src="images/main-img.jpg" alt="">
+                </div>
+                <div class="col-md-6 right">
+                    <span></span>
+                    <h1>Cutting Edge</h1>
+                    <p>Now taking online orders. Order today and get 15% off your first order. Hurry while supplies last! </p>
+                    <button class="shop-btn btn-styling">shop ↓</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container-fluid">
+            <h3>Drop us a line!</h3>
+            <form action="" id="contact-form">
+                <input type="name" placeholder="Name"></input>
+                <input type="email" placeholder="Email*" required></input>
+                <textarea type="text" placeholder="Message" class="message-input"></textarea>
+            </form>
+            <button class="send-btn btn-styling" type="submit" form="contact-form">Send</button>
+
+            <p>This site is protected by reCAPTCHA and the Google <span class="policies">Privacy Policy</span> and <span class="policies">Terms of Service</span> apply.</p>
+            <br>
+            <h1>Questions or Concerns?</h1>
+            <h6>Need help selecting a product or finding a compatible option? Send us a message!</h6>
+            <br>
+            <h1>Webshop</h1>
+            <h6>marko.milkovicc@gmail.com</h6>
+        </div>
+    </div>
+
+    <div class="mailing">
+        <div class="row">
+            <div class="col-md-4 left">
+                <h1>Join our mailing list</h1>
+            </div>
+            <div class="col-md-4 mid">
+                <input type="email" placeholder="Email"></input>
+            </div>
+            <div class="col-md-4 right">
+                <button class="sign-up btn-styling">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-6 left">
+                <p>Copyright © 2023 Webshop - All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 right">
+                <p>Powered by m1lky's basement</p>
+                <button class="scroll-btn btn-styling" id="scrollBtn" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
