@@ -54,6 +54,10 @@ header {
     margin-top: 150px;
 }
 
+.hero a {
+    text-decoration: none;
+}
+
 .btn-styling {
     padding: 7px 40px;
     border-radius: 25px;
