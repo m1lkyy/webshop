@@ -50,12 +50,13 @@ header {
     padding-top: 25px;
 }
 
-.hero .shop-btn {
-    margin-top: 150px;
-}
-
 .hero a {
     text-decoration: none;
+    color: #fff;
+}
+
+.hero .shop-btn {
+    margin-top: 150px;
 }
 
 .btn-styling {
