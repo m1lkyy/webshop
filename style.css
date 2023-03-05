@@ -50,6 +50,10 @@ header {
     padding-top: 25px;
 }
 
+.hero .shop-btn {
+    margin-top: 150px;
+}
+
 .btn-styling {
     padding: 7px 40px;
     border-radius: 25px;
@@ -61,10 +65,7 @@ header {
     transition: 0.5s ease;
     font-weight: 600;
     font-family: "Noto Sans", Arial, sans-serif;
-}
-
-.shop-btn {
-    margin-top: 150px;
+    text-decoration: none;
 }
 
 .btn-styling:hover {
