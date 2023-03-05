@@ -40,8 +40,8 @@ header a:hover {
 }
 
 .items .row {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .items h4 {
@@ -142,8 +142,36 @@ header a:hover {
 }
 
 @media screen and (max-width: 1600px) {
+    .items .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .items .row {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
     .items .pricing-plan {
         margin-top: 50px;
+    }
+
+    .items .pricing-plan:hover {
+        background-color: #3c309d;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .items .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .items .row {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
@@ -154,6 +182,16 @@ header a:hover {
         float: none;
         right: 0;
         top: 0;
+    }
+
+    .items .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .items .row {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 
     .items .pricing-plan {
