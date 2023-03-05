@@ -159,4 +159,10 @@ header a:hover {
     .items .pricing-plan {
         margin-top: 50px;
     }
+    
+     .items .pricing-plan:hover {
+        background-color: #3c309d;
+        cursor: pointer;
+        margin-top: 10px;
+    }
 }   
