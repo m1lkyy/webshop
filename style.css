@@ -179,6 +179,8 @@ header {
 .row {
     width: 100%;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .mailing .row {
@@ -188,14 +190,18 @@ header {
 }
 
 .mailing .left {
-    width: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
 }
 
 .mailing .mid {
-    width: 700px;
-    margin: 0 30px;
+    width: 500px;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .mailing .right {
@@ -208,7 +214,7 @@ header {
     border: none;
     border-bottom: 1px solid #fff;
     color: #fff;
-    width: 700px;
+    width: 500px;
     height: 60px;
     margin: 10px 0;
     resize: none;
@@ -279,16 +285,10 @@ header {
         margin-top: 50px;
     }
 
-    .mailing .left {
-        width: 37%;
-    }
-
-    .mailing .mid {
-        width: 400px;
-    }
-
-    .mailing h1 {
-        font-size: 32px;
+    .mailing .row {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
     }
 
 }
@@ -306,16 +306,10 @@ header {
         width: 425px;
     }
 
-    .mailing .left {
-        width: 35%;
-    }
-
-    .mailing .mid {
-        width: 400px;
-    }
-
-    .mailing .right {
-        width: 200px;
+    .mailing .row {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
     }
    
     .mailing h1 {
@@ -351,15 +345,22 @@ header {
     }
 
     .mailing h1 {
-        font-size: 28px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .mailing .row {
+        display: flex;
+        justify-content: center;
     }
 
     .mailing .left {
-        width: 40%;
+        width: 250px;
     }
 
     .mailing .mid {
-        width: 250px;
+        width: 300px;
     }
 
     .mailing .right {
@@ -446,14 +447,16 @@ header {
 
     .mailing .left {
         width: 100%;
+        justify-content: center;
     }
 
     .mailing .mid {
         width: 100%;
+        justify-content: center;
     }
 
     .mailing input {
-        width: 500px;
+        width: 400px;
     }
 
     .mailing .right {
